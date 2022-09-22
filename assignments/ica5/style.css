@@ -17,9 +17,14 @@
 
   article{
     background: top / contain
-    no-repeat
-    url(./img/top-image.png)
+                no-repeat
+                url("./img/top-image.png"),
+
+                bottom / contain
+                no-repeat
+                url("./img/bottom-image.png")
   }
+
   address {
     position: absolute;
     bottom: 8mm;
