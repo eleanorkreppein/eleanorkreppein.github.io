@@ -43,7 +43,7 @@
     color: white;
     text-shadow: 1px 1px 1px black;
     background-image: url("./img/logo.png");
-    box-shadow: 4px, 4px, black
-    border-radius: 50%
+    box-shadow: 4px, 4px, black;
+    border-radius: 50%;
   }
   /* Your CSS below here */
