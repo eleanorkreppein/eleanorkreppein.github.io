@@ -17,11 +17,11 @@ const alt = {
 
 /* Looping through images */
 for (const image of carousel) {
-    const newImage = document.createElement('img');
-    newImage.setAttribute('src', `img/${image}`);
-    newImage.setAttribute('alt', alt[image]);
-    thumbBar.appendChild(newImage);
-    newImage.addEventListener("click", e => {
+    const newPicture = document.createElement('img');
+    newPicture.setAttribute('src', `img/${image}`);
+    newPicture.setAttribute('alt', alt[image]);
+    thumbBar.appendChild(newPicture);
+    newPicture.addEventListener("click", e => {
         displayedImage.src = e.target.src;
         displayedImage.alt = e.target.alt;
     });
