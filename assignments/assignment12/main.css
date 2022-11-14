@@ -1,0 +1,61 @@
+.zero-button{
+  background-color: #FF0000;
+  width: 30px;
+  height: 30px;
+}
+
+.one-button{
+  background-color: #FF7F00;
+  width: 30px;
+  height: 30px;
+}
+
+.two-button{
+  background-color: #FFFF00;
+  width: 30px;
+  height: 30px;
+}
+
+.three-button{
+  background-color: #00FF00;
+  width: 30px;
+  height: 30px;
+}
+
+.four-button{
+  background-color: lightskyblue;
+  width: 30px;
+  height: 30px;
+}
+
+.five-button{
+  background-color: #0000FF;
+  width: 30px;
+  height: 30px;
+}
+
+.six-button{
+  background-color: #4B0082;
+  width: 30px;
+  height: 30px;
+}
+
+.seven-button{
+  background-color: #9400D3;
+  width: 30px;
+  height: 30px;
+}
+
+.eight-button{
+  background-color: lightpink;
+  width: 30px;
+  height: 30px;
+}
+
+.nine-button{
+  background-color: hotpink;
+  width: 30px;
+  height: 30px;
+}
+
+
