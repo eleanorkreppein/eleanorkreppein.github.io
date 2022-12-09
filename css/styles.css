@@ -14,29 +14,20 @@ html {
 }
 
 img {
-  max-width: 100%;
   display: grid;
-  float: left;
-  text-align: justify;
-  padding-right: 18px;
+  align-self: center;
 }
 
 .grid {
-  margin: 0 auto;
-  padding: 20px;
   max-width: 900px;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 20px;
 }
 
 .photos {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1px;
 }
 
 h1 {
@@ -44,6 +35,7 @@ h1 {
     line-height: 87px;
     text-align:center;
     text-shadow: #000;
+    background-color: #B4ADEA;
 }
 
 h2 {
@@ -88,21 +80,15 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: 2px solid #000000;
   }
   
-  button:hover {
-    background-color: #B4ADEA;
-    color: white;
-  }
 
   hr {
     border-top: 5px solid #02394A;
   }
 
 .navbardesktop ul {
-  margin-left:auto;
-  padding: 10px;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content:center;
   text-decoration: none;
 }
 
@@ -110,14 +96,14 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 15px;
   text-decoration: none;
   color: black;
-  padding: 10px;
+  padding: 25px; 
 }
 
 .navbardesktop{
   background-color: #B4ADEA;
   list-style-type: none;
-  padding-right: 10em;
-  padding-left: 10em;
+  /* padding-right: 10em;
+  padding-left: 10em; */
   padding-bottom: 3em;
   width: 100%;
 }
@@ -159,5 +145,89 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   .navbardesktop {
     display: none;
   }
-  
+}
+
+/* Book Review CSS */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 450px;
+  position: center;
+  /* moves farther from left */
+  margin:30px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  /* how far from top you go */
+  top: 92%;
+  width: auto;
+  /* changes down or up direction */
+  margin-top: -22px;
+  /* padding of the button */
+  padding: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 20px 20 20 20px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #B4ADEA;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 28px;
+  text-decoration: overline;
+  padding: 275px 100px;
+  position:absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: right;
+}
+
+/* The dots/bullets/indicators
+.dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
+
+/* .active, .dot:hover {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
