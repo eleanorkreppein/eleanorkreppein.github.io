@@ -147,32 +147,33 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
 
-/* Style the hamburger menu */
+/* hamburger 
 .navbarmobile a.icon {
   background: black;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
-}
+} */
 
-/* Book Review CSS */
+/* Book Review */
 * {box-sizing:border-box}
 
-/* Slideshow container */
+/* slideshow container */
 .slideshow-container {
   max-width: 450px;
+  display: grid;
   position: center;
   /* moves farther from left */
   margin:30px;
 }
 
-/* Hide the images by default */
+/* Hide the images by default
 .mySlides {
   display:grid;
-}
+} */
 
-/* Next & previous buttons */
+/* buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -191,18 +192,18 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* next button*/
 .next {
   right: 0;
   border-radius: 20px 20 20 20px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* purple hover*/
 .prev:hover, .next:hover {
   background-color: #B4ADEA;
 }
 
-/* Caption text */
+/* caption */
 .text {
   color: black;
   font-size: 28px;
@@ -215,7 +216,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: grid;
 }
 
-/* Fading animation */
+/* fading */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
