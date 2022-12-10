@@ -1,8 +1,8 @@
-//Book Review
+// book Review
   let slideIndex = 1;
 showSlides(slideIndex);
 
-// ext/previous controls
+// next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
