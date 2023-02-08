@@ -6,12 +6,10 @@
 html {
   background-color: #FDFFF7;
   color: #000;
-  font-family: "Hahmlet";
-  /* font-family: "Trirong", serif; */
+  font-family: 'Oswald';
   font-style: normal;
-  font-weight: 400;
   display: flex;
-  margin: 0;
+  margin: 1%;
 }
 
 img {
@@ -32,6 +30,7 @@ img {
 }
 
 h1 {
+    font-family: 'Oswald';
     font-size: 60px;
     line-height: 87px;
     text-align:center;
@@ -40,8 +39,10 @@ h1 {
 }
 
 h2 {
+    font-family: 'Oswald';
     font-size: 50px;
     line-height: 72px;
+    font-style: normal;
 }
 
 h3 {
@@ -56,6 +57,7 @@ h4,h5,h6 {
 
 p {
     font-size: 19px;
+    font-family: 'Assistant';
     line-height: 28px;
 }
 
