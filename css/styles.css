@@ -9,7 +9,7 @@ html {
   font-family: 'Oswald';
   font-style: normal;
   display: flex;
-  margin: 1%;
+  /* margin: 1%; */
 }
 
 img {
@@ -43,6 +43,7 @@ h2 {
     font-size: 50px;
     line-height: 72px;
     font-style: normal;
+    margin: 1%;
 }
 
 h3 {
@@ -59,6 +60,7 @@ p {
     font-size: 19px;
     font-family: 'Assistant';
     line-height: 28px;
+    margin: 1%;
 }
 
 .navbardesktop ul {
