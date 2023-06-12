@@ -97,25 +97,24 @@ p {
 
 .navbarmobile :hover{
   text-decoration: none;
-  color: white;
 }
 
-@media only screen and (max-width:600px)
+@media only screen and (max-width:0px)
 {
   .navbarmobile {
     display: flex;
     padding: 10px;
-    text-align: left ;
+    text-align: center;
   }
 
   nav ul {
     flex-direction: column;
-    width: 20%;
-    background-color: #B4ADEA;
+    width: 100%;
+    background-color: #99cbec;
     top: 15px;
-    right: 0;
-    padding: 10px;
-    list-style-type:none ;
+    /* right: 0; */
+    padding:  0 px;
+    list-style-type: none;
   }
   nav ul li {
     margin-top: 10px;
@@ -124,6 +123,11 @@ p {
   nav ul li a {
     color: black;
     text-decoration: none;
+  }
+  .navbarmobile {
+    display: flex;
+    padding: 10px;
+    text-align: center;
   }
   .navbardesktop {
     display: none;
